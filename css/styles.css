@@ -4,6 +4,10 @@
 .link {
     text-decoration: none;
 }
+body {
+font-family: "Roboto", sans-serif;
+background-color: #FFF;
+}
 /* *********** COMPONENTS *********** */
 .logo {
     color: var(--NAVY-BLUE, #2E2F42);
