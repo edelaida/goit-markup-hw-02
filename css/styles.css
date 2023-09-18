@@ -6,11 +6,17 @@
 }
 body {
 font-family: "Roboto", sans-serif;
-background-color: #FFF;
+color: #434455;
+background-color: #FFFFFF;
 }
-/* *********** COMPONENTS *********** */
+
+:root {
+    --colorblue: #4d5ae5;
+    --colorblak: #2E2F42;
+
+}
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--colorblue);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -18,22 +24,31 @@ background-color: #FFF;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-/* *********** /COMPONENTS *********** */
-
-/* *************** HEADER ********* */
-.menu-link {
-        font-family: "Roboto", sans-serif; 
+.logocolor {
+    color: var(--colorblak);
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1,17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.menu-item {
         font-size: 16px;
         font-weight: 500;
         line-height: 1,5;
         letter-spacing: 0.32px;
 }
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--NAVY-BLUE, #2E2F42);
+.menu-item:hover,
+.menu-item:focus {
+    color: #404bbf;
 }
+
 .contact {
-    font-family: "Roboto", sans-serif;
+font-style: normal;
+}
+
+.contact-mail {
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
@@ -41,10 +56,11 @@ background-color: #FFF;
 }
 .contac:hover,
 .contac:focus {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #404bbf;
 }
-/* *************** /HEADER ********* */
-/* *************** MENU ********* */
+
+
+
 .modal-btn {
     text-align: center;
     font-family: "Roboto", sans-serif;
