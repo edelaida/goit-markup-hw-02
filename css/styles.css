@@ -21,7 +21,7 @@ background-color: #FFFFFF;
     font-size: 18px;
     font-weight: 800;
     line-height: 1,17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logocolor {
@@ -30,14 +30,14 @@ background-color: #FFFFFF;
     font-size: 18px;
     font-weight: 800;
     line-height: 1,17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .menu-item {
         font-size: 16px;
         font-weight: 500;
         line-height: 1,5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -52,7 +52,7 @@ font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .contac:hover,
 .contac:focus {
@@ -63,11 +63,10 @@ font-style: normal;
 
 .modal-btn {
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1,5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 .modal-btn:hover,
@@ -78,31 +77,27 @@ color: var(--WHITE, #FFF);
 
 /* *************** CONTENT ********* */
 .subject {
-color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
+  color: var(--colorblak);
     font-size: 20px;
     font-weight: 500;
     line-height: 1,2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .direct {
-color: var(--SLATE, #434455);
-    font-family: Roboto;
+  /*color: var(--SLATE, #434455); */
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 /* *************** /CONTENT ********* */
 /* *************** FOOTER ********* */
 .text {
-/*color: var(--CLOUD, #F4F4FD); */
- 
-    font-family: Roboto;
+     color: #F4F4FD;  
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 
