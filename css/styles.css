@@ -1,104 +1,119 @@
-.list {
-  list-style: none;
-}
-.link {
-    text-decoration: none;
-}
-body {
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: #FFFFFF;
-}
-
+/* Variables */
 :root {
-    --colorblue: #4d5ae5;
-    --colorblak: #2E2F42;
+    --font-main: "Roboto", sans-serif;
+    --accent-color: #4d5ae5;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --text-footer: #F4F4FD
+    }
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 
 }
+.header {}
+
+.navigation {}   
+
 .logo {
-    color: var(--colorblue);
-    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
+    font-style: normal;
     font-weight: 800;
-    line-height: 1,17;
-    letter-spacing: 0.03em;
+    line-height: 1.17;
+    letter-spacing: 0,013em;
     text-transform: uppercase;
 }
-.logocolor {
-    color: var(--colorblak);
-    font-family:'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1,17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
+.logo-text {
+    color: var(--title-color);   
 }
-.menu-item {
+ 
+/* Base styles */
+ 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+
+.header-item {
+        color: var(--title-color);
         font-size: 16px;
         font-weight: 500;
         line-height: 1,5;
         letter-spacing: 0.02em;
 }
-.menu-item:hover,
-.menu-item:focus {
+
+.header-item:hover,
+.header-item:focus {
     color: #404bbf;
 }
 
-.contact {
-font-style: normal;
+.contact { 
+}
+.header-socials {
+
 }
 
-.contact-mail {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1,5;
-    letter-spacing: 0.02em;
+.header-social { 
+
 }
-.contac:hover,
-.contac:focus {
+
+.header-social:hover,
+.header-social:focus {
     color: #404bbf;
 }
 
+.hero {
 
-
-.modal-btn {
+}
+.hero-title {
+  color: #FFFFFF;  
+}
+.hero-link {
+    color: var(--accent-color);
     text-align: center;
-    font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.modal-btn:hover,
-.modal-btn:focus {
-color: var(--WHITE, #FFF);
+.hero-btn:hover,
+.hero-btn:focus {
+color: var(--title-color);
 }
-/* *************** /MENU ********* */
 
 /* *************** CONTENT ********* */
 .subject {
-  color: var(--colorblak);
+    color: var(--title-color);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
-    letter-spacing: 0.02em;
+    line-height: 1,2x;    
 }
 .direct {
-  /*color: var(--SLATE, #434455); */
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1,5;
-    letter-spacing: 0.02em;
+  
 }
-/* *************** /CONTENT ********* */
+
 /* *************** FOOTER ********* */
-.text {
-     color: #F4F4FD;  
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1,5;
-    letter-spacing: 0.02em;
+.logo-footer {
+    color: var(--text-footer);    
 }
-
-
-/* *************** /FOOTER ********* */
+.text {
+     color:var(--text-footer);      
+}
