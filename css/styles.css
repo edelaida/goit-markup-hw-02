@@ -6,6 +6,7 @@
     --text-color: #434455;
     --text-footer: #F4F4FD;
     --bakgr-footer: #2E2F42;
+    --backgr-btn: #404BBF
     }
 body {
     font-family: var(--font-main);
@@ -91,7 +92,6 @@ button {
 }
 
 /* *************** HERO ********* */
-.hero {}
 
 .hero-title {
   color: #FFFFFF;  
@@ -100,22 +100,25 @@ button {
 .hero-item {}
 
 .hero-btn {
-  color: var(--accent-color);
-  /*text-align: center;*/
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+        color: var(--accent-color);
+        font-weight: 500;
+        line-height: 1,5;
+        letter-spacing: 0.04em;
+        background-color: var(--text-footer);
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
-color: var(--title-color);
+   color: var(--text-footer);
+   background: var(--backgr-btn);
 }
+
 
 .hero-img {
     background-color: var(--bakgr-footer);
 }
 .business {
-    color: var(--text-footer);
+        color: var(--text-footer);
         text-align: center;
         font-size: 56px;        
         font-weight: 700;
@@ -130,9 +133,8 @@ color: var(--title-color);
 }
 .hero-img-btn:hover,
 .hero-img-btn:focus {
-     background-color: #404BBF;
+     background-color:var(--backgr-btn);
 }
-
 
 /* *************** CONTENT PORTOFOLIO ********* */
 
