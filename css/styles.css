@@ -4,7 +4,8 @@
     --accent-color: #4d5ae5;
     --title-color: #2E2F42;
     --text-color: #434455;
-    --text-footer: #F4F4FD
+    --text-footer: #F4F4FD;
+    --bakgr-footer: #2E2F42;
     }
 body {
     font-family: var(--font-main);
@@ -81,6 +82,7 @@ button {
     color: #404bbf;
 }
 
+/* *************** HERO ********* */
 .hero {
 
 }
@@ -89,7 +91,7 @@ button {
 }
 .hero-link {
     color: var(--accent-color);
-    text-align: center;
+    /*text-align: center;*/
     font-weight: 500;
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -98,22 +100,108 @@ button {
 .hero-btn:focus {
 color: var(--title-color);
 }
+.hero-img {
+    background-color: var(--bakgr-footer);
+}
+.business {
+    color: var(--text-footer);
+        text-align: center;
+        font-size: 56px;        
+        font-weight: 700;
+        line-height: 1,07;
+        letter-spacing: 0,02em;
+}
+.hero-img-btn {
+    background-color: var(--accent-color);
+    color: var(--text-footer);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+.hero-img-btn:hover,
+.hero-img-btn:focus {
+     background-color: #404BBF;
+}
 
-/* *************** CONTENT ********* */
+
+/* *************** CONTENT PORTOFOLIO ********* */
 .subject {
     color: var(--title-color);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2x;    
+    line-height: 1,2;    
 }
 .direct {
   
 }
 
+/* *************** CONTENT Web Studio ********* */
+.description {
+
+}
+.description-list {
+
+}
+.description-link {
+
+}
+.description-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1,2;
+}
+.description-text {
+
+}
+
+.doing {
+
+}
+.doing-title {
+    text-align: center;
+    font-size: 36px;    
+    font-weight: 700;
+    line-height: 1.11;     
+    text-transform: capitalize;
+}
+.doing-list {
+
+}
+.doing-link {
+
+}
+.team {
+
+}
+.team-title {
+    font-size: 36px;   
+    font-weight: 700;
+    line-height: 1,11;
+    text-transform: capitalize;
+}
+.team-list {
+
+}
+.team-link {
+
+}
+.team-name {
+font-size: 20px;    
+    font-weight: 500;
+    line-height: 1,2;     
+}
+.team-text {
+
+}
+
+
 /* *************** FOOTER ********* */
+
+.footer {
+    background-color: var(--bakgr-footer);
+}
 .logo-footer {
     color: var(--text-footer);    
 }
-.text {
-     color:var(--text-footer);      
+.footer-text {
+     color:var(--text-footer);  
 }
