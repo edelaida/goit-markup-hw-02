@@ -6,7 +6,8 @@
     --text-color: #434455;
     --text-footer: #F4F4FD;
     --bakgr-footer: #2E2F42;
-    --backgr-btn: #404BBF
+    --backgr-btn: #404BBF;
+    --title-one: #ffffff;
     }
 body {
     font-family: var(--font-main);
@@ -14,7 +15,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
@@ -69,7 +70,7 @@ button {
         color: var(--title-color);
         font-size: 16px;
         font-weight: 500;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
@@ -78,14 +79,14 @@ button {
     color: #404bbf;
 }
 
-.contact { 
+.contact {
+    font-style: normal;
 }
 .header-socials {}
 .header-social {}
 
-.header-social-link{
-   
-}
+.header-social-link{}
+
 .header-social:hover,
 .header-social:focus {
     color: #404bbf;
@@ -102,7 +103,7 @@ button {
 .hero-btn {
         color: var(--accent-color);
         font-weight: 500;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: var(--text-footer);
 }
@@ -118,18 +119,21 @@ button {
     background-color: var(--bakgr-footer);
 }
 .business {
-        color: var(--text-footer);
+        color: var(--title-one);
         text-align: center;
         font-size: 56px;        
         font-weight: 700;
-        line-height: 1,07;
-        letter-spacing: 0,02em;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
 }
 .hero-img-btn {
     background-color: var(--accent-color);
-    color: var(--text-footer);
+    color: var(--title-one);
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-img-btn:hover,
 .hero-img-btn:focus {
@@ -145,13 +149,21 @@ button {
 .content-item {}
 
 .subject {
+    font-family:var(--font-main);
     color: var(--title-color);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;    
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
 }
 .direct {
-  
+   color: var(--text-color); 
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* *************** CONTENT Web Studio ********* */
@@ -160,40 +172,53 @@ button {
 .description-item {}
 
 .description-title {
-font-size: 20px;
-font-weight: 500;
-line-height: 1,2;
+   color: var(--title-color);
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.description-text {}
+.description-text {
+   color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .doing {}
 
 .doing-title {
+    color: var(--title-color);
     text-align: center;
     font-size: 36px;    
     font-weight: 700;
-    line-height: 1.11;     
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .doing-list {}
 .doing-item {}
 
-.team {}
+.team {
+    background-color:var(--text-footer) ;
+   
+}
 
 .team-title {
+    color: var(--title-color);
     font-size: 36px;   
     font-weight: 700;
-    line-height: 1,11;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-list {}
-.team-item {}
-
-.team-name {
-font-size: 20px;    
-    font-weight: 500;
-    line-height: 1,2;     
+.team-item {
+    background-color: var(--title-one);
 }
-.team-text {}
 
 
 /* *************** FOOTER ********* */
