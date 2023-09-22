@@ -87,8 +87,8 @@ button {
 
 .header-social-link{}
 
-.header-social:hover,
-.header-social:focus {
+.header-social-link:hover,
+.header-social-link:focus {
     color: #404bbf;
 }
 
