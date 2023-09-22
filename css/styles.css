@@ -74,8 +74,8 @@ button {
         letter-spacing: 0.02em;
 }
 
-.header-item:hover,
-.header-item:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -101,16 +101,20 @@ button {
 .hero-item {}
 
 .hero-btn {
+        font-family: var(--font-main);
         color: var(--accent-color);
+        font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: var(--text-footer);
-}
+        text-align: center;  
+        cursor: pointer;
+    }
 
 .hero-btn:hover,
 .hero-btn:focus {
-   color: var(--text-footer);
+   color: var(--title-one);
    background: var(--backgr-btn);
 }
 
